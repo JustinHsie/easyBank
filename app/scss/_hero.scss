@@ -31,13 +31,13 @@
         &::before {
 
             @include breakpoint-up(large) {
-                width: 150%;
-                background-size: 122%;
-                background-position: 0% 83%;
                 content: "";
                 position: absolute;
+                width: 150%;
                 height: 100%;
                 background-image: url('/images/bg-intro-desktop.svg');
+                background-size: 122%;
+                background-position: 0% 83%;
                 background-repeat: no-repeat;
                 background-position: center bottom; 
             }
@@ -74,23 +74,6 @@
             flex: 2;
             order: 1;
             text-align: left;
-        }
-        
-        h1 {
-            font-weight: 300;
-            font-size: 2.31rem;
-            line-height: 1.15;
-            color: $darkBlue;
-            margin-bottom: 1.5rem;
-
-            @include breakpoint-up(large) {
-                font-size: $font-xlg;
-            }
-        }
-
-        p {
-            line-height: 1.5;
-            margin-bottom: 2.25rem;
         }
     }
 }
