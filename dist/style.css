@@ -261,6 +261,11 @@ button:hover, .button:hover {
   }
 }
 
+.wrapper {
+  position: relative;
+  overflow-x: hidden;
+}
+
 .header.open .header__toggle > span:first-child {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -423,7 +428,6 @@ button:hover, .button:hover {
     background-size: 122%;
     background-position: 0% 83%;
     background-repeat: no-repeat;
-    background-position: center bottom;
   }
 }
 
