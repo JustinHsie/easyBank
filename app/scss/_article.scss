@@ -61,6 +61,11 @@
         line-height: 1.2;
         color: $darkBlue;
         margin-bottom: 0.5rem;
+        transition: color 150ms ease-in-out;
+
+        &:hover {
+            color: $limeGreen;
+        }
     }
 
     &__description {

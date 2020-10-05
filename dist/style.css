@@ -624,6 +624,12 @@ button:hover, .button:hover {
   line-height: 1.2;
   color: #2d314d;
   margin-bottom: 0.5rem;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+
+.article__title:hover {
+  color: #31d35c;
 }
 
 .article__description {
