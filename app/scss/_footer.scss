@@ -98,6 +98,11 @@
 
         a {
             line-height: 2.25;
+            transition: color 150ms ease-in-out;
+
+            &:hover {
+                color: $limeGreen;
+            }
         }
         
     }
