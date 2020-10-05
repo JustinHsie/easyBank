@@ -691,6 +691,15 @@ button:hover, .button:hover {
   height: 1.25rem;
 }
 
+.footer__social a svg path {
+  -webkit-transition: fill 150ms ease-in-out;
+  transition: fill 150ms ease-in-out;
+}
+
+.footer__social a:hover svg path {
+  fill: #31d35c;
+}
+
 .footer__social a:not(:last-child) {
   display: inline-block;
   margin-right: 1rem;
