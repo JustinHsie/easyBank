@@ -4,7 +4,6 @@ const fadeElems = document.querySelectorAll('.has-fade');
 const body = document.querySelector('body');
 
 btnHamburger.addEventListener('click', function() {
-    console.log('click hamburger');
 
     body.classList.toggle('noScroll');
     header.classList.toggle('open');
